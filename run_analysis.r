@@ -12,7 +12,7 @@ if (!file.exists("data")){
 }
 ##list.files("./data")
 ## download and unzip files
-##install.packages("downloader")
+install.packages("downloader")
 library("downloader")
 download("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", dest="./data/dataset.zip", mode="wb") 
 unzip ("dataset.zip", exdir = "./data/")
