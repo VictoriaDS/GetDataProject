@@ -6,11 +6,11 @@
 
 
 
-setwd("~/Desktop/R Studies/getting data/Getting Data Project")
+##setwd("~/Desktop/R Studies/getting data/Getting Data Project")
 if (!file.exists("data")){
   dir.create("data")
 }
-list.files("./data")
+##list.files("./data")
 ## download and unzip files
 ##install.packages("downloader")
 library("downloader")
